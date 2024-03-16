@@ -1,0 +1,37 @@
+/* App.module.css */
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+
+  /* height: 100vh; */
+  padding: 20px;
+}
+
+
+
+/* .outputSection {
+  position: relative;
+} */
+
+iframe {
+  width: 180%;
+  height: 100%;
+  border: 2px solid #888;
+  background-color: rgb(217, 233, 233);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #555;
+}
